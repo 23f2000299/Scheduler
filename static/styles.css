@@ -1,0 +1,44 @@
+/* static/styles.css */
+body {
+    background-color: #f8c8dc; /* Pastel pink */
+    background-image: url('Leavespink.jpg'); /* Floral pattern; ensure this image is in your static folder */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.signup-container, .login-container {
+    width: 350px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+    text-align: center;
+    position: relative;
+}
+
+input, button {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #f4a6c0; /* Pastel pink */
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #e38ba9;
+}
